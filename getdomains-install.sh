@@ -633,7 +633,7 @@ add_getdomains() {
     done
 
     if [ "$COUNTRY" == 'russia_inside' ]; then
-        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-dnsmasq-nfset.lst
+        EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/IReDMOnTI/domain-routing-openwrt_rtfl1/master/my_list.lst
     elif [ "$COUNTRY" == 'russia_outside' ]; then
         EOF_DOMAINS=DOMAINS=https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/outside-dnsmasq-nfset.lst
     elif [ "$COUNTRY" == 'ukraine' ]; then
@@ -937,17 +937,17 @@ install_awg_packages() {
         fi
     fi
     
-    if opkg list-installed | grep -q luci-app-amneziawg; then
-        echo "luci-app-amneziawg already installed"
+    if opkg list-installed | grep -q luci-proto-amneziawg; then
+        echo "luci-proto-amneziawg already installed"
     else
-        LUCI_APP_AMNEZIAWG_FILENAME="luci-app-amneziawg${PKGPOSTFIX}"
+        LUCI_APP_AMNEZIAWG_FILENAME="luci-proto-amneziawg${PKGPOSTFIX}"
         DOWNLOAD_URL="${BASE_URL}v${VERSION}/${LUCI_APP_AMNEZIAWG_FILENAME}"
         curl -L -o "$AWG_DIR/$LUCI_APP_AMNEZIAWG_FILENAME" "$DOWNLOAD_URL"
 
         if [ $? -eq 0 ]; then
-            echo "luci-app-amneziawg file downloaded successfully"
+            echo "luci-proto-amneziawg file downloaded successfully"
         else
-            echo "Error downloading luci-app-amneziawg. Please, install luci-app-amneziawg manually and run the script again"
+            echo "Error downloading luci-proto-amneziawg. Please, install luci-proto-amneziawg manually and run the script again"
             exit 1
         fi
 
