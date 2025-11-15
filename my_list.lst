@@ -1,5 +1,4 @@
 #my_list
-nftset=/ajax.googleapis.com/4#inet#fw4#vpn_domains
 nftset=/accounts.youtube.com/4#inet#fw4#vpn_domains
 nftset=/cloudflare-ech.com/4#inet#fw4#vpn_domains
 nftset=/encryptedsni.com/4#inet#fw4#vpn_domains
