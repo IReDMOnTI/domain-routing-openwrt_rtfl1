@@ -1,6 +1,6 @@
 #ipv6
-nftset=/youtube.com/6#inet#fw4#vpn_domains_v6
-nftset=/ntc.party/6#inet#fw4#vpn_domains_v6
+nftset=/youtube.com/6#inet#fw6#vpn_domains_v6
+nftset=/ntc.party/6#inet#fw6#vpn_domains_v6
 #cloudflare
 nftset=/cloudflare-ech.com/4#inet#fw4#vpn_domains
 nftset=/encryptedsni.com/4#inet#fw4#vpn_domains
