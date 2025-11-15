@@ -1,0 +1,28 @@
+
+https://openwrt.org/docs/guide-user/services/dns/dot_dnsmasq_stubby
+
+# Configure DoT provider
+while uci -q delete stubby.@resolver[0]; do :; done
+uci add stubby resolver
+uci set stubby.@resolver[-1].address="2606:4700:4700::1111"
+uci set stubby.@resolver[-1].tls_auth_name="cloudflare-dns.com"
+uci add stubby resolver
+uci set stubby.@resolver[-1].address="2001:4860:4860::8844"
+uci set stubby.@resolver[-1].tls_auth_name="dns.google"
+uci add stubby resolver
+uci set stubby.@resolver[-1].address="1.1.1.1"
+uci set stubby.@resolver[-1].tls_auth_name="cloudflare-dns.com"
+uci add stubby resolver
+uci set stubby.@resolver[-1].address="8.8.4.4"
+uci set stubby.@resolver[-1].tls_auth_name="dns.google"
+uci commit stubby
+service stubby restart
+
+address_data: 2606:4700:4700::1111
+    tls_auth_name: "cloudflare-dns.com"
+  - address_data: 2001:4860:4860::8888
+    tls_auth_name: "dns.google"
+  - address_data: 1.1.1.1
+    tls_auth_name: "cloudflare-dns.com"
+  - address_data: 8.8.8.8
+    tls_auth_name: "dns.google"
