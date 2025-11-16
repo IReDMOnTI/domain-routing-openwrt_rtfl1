@@ -16,6 +16,7 @@ nftset=/cloudflaressl.com/6#inet#fw4#vpn_domains_v6
 nftset=/cloudflarestorage.com/6#inet#fw4#vpn_domains_v6
 nftset=/cloudflarestream.com/6#inet#fw4#vpn_domains_v6
 nftset=/cloudflaretest.com/6#inet#fw4#vpn_domains_v6
+nftset=/rutracker.org/6#inet#fw4#vpn_domains_v6
 #cloudflare
 nftset=/cloudflare-ech.com/4#inet#fw4#vpn_domains
 nftset=/encryptedsni.com/4#inet#fw4#vpn_domains
