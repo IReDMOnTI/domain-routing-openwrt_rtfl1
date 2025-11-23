@@ -61,6 +61,7 @@ nftset=/discordpartygames.com/4#inet#fw4#vpn_domains
 nftset=/discordsays.com/4#inet#fw4#vpn_domains
 nftset=/discordsez.com/4#inet#fw4#vpn_domains
 #my_list
+nftset=/status.perfprod.com/4#inet#fw4#vpn_domains
 nftset=/firefox.api.cdn-perfprod.com/4#inet#fw4#vpn_domains
 nftset=/cdn-perfprod.com/4#inet#fw4#vpn_domains
 nftset=/futurecdn.net/4#inet#fw4#vpn_domains
