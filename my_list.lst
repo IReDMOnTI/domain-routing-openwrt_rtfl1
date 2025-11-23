@@ -63,6 +63,7 @@ nftset=/discordsez.com/4#inet#fw4#vpn_domains
 #my_list
 nftset=/firefox.api.cdn-perfprod.com/4#inet#fw4#vpn_domains
 nftset=/cdn-perfprod.com/4#inet#fw4#vpn_domains
+nftset=/twitch.tv/4#inet#fw4#vpn_domains
 nftset=/futurecdn.net/4#inet#fw4#vpn_domains
 nftset=/frankerfacez.com/4#inet#fw4#vpn_domains
 nftset=/ffzap.com/4#inet#fw4#vpn_domains
