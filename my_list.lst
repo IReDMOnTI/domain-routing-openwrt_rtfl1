@@ -82,6 +82,7 @@ nftset=/striiiipst.com/4#inet#fw4#vpn_domains
 nftset=/dojki.tv/4#inet#fw4#vpn_domains
 nftset=/.world/4#inet#fw4#vpn_domains
 nftset=/nnmclub.to/4#inet#fw4#vpn_domains
+nftset=/cdn.helprace.com/4#inet#fw4#vpn_domains
 #inside-dnsmasq-nfset
 nftset=/.ua/4#inet#fw4#vpn_domains
 nftset=/10minutemail.com/4#inet#fw4#vpn_domains
