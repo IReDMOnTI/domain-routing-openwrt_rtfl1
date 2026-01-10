@@ -74,7 +74,6 @@ nftset=/cdn.betterttv.net/4#inet#fw4#vpn_domains
 nftset=/itdog.info/4#inet#fw4#vpn_domains
 nftset=/warp.llimonix.dev/4#inet#fw4#vpn_domains
 nftset=/spaces.im/4#inet#fw4#vpn_domains
-nftset=/.spaces.im/4#inet#fw4#vpn_domains
 nftset=/perfectgirls.live/4#inet#fw4#vpn_domains
 nftset=/doppiocdn.live/4#inet#fw4#vpn_domains
 nftset=/img.doppiocdn.live/4#inet#fw4#vpn_domains
@@ -82,9 +81,6 @@ nftset=/striiiipst.com/4#inet#fw4#vpn_domains
 nftset=/dojki.tv/4#inet#fw4#vpn_domains
 nftset=/.world/4#inet#fw4#vpn_domains
 nftset=/nnmclub.to/4#inet#fw4#vpn_domains
-nftset=/cdn.helprace.com/4#inet#fw4#vpn_domains
-nftset=/nahimic.com/4#inet#fw4#vpn_domains
-nftset=/.helprace.com/4#inet#fw4#vpn_domains
 #inside-dnsmasq-nfset
 nftset=/.ua/4#inet#fw4#vpn_domains
 nftset=/10minutemail.com/4#inet#fw4#vpn_domains
