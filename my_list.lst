@@ -88,6 +88,7 @@ nftset=/amazonaws.com/4#inet#fw4#vpn_domains
 nftset=/cwer.ru/4#inet#fw4#vpn_domains
 nftset=/.evwsports.com/4#inet#fw4#vpn_domains
 #Telegram
+nftset=/t.me/4#inet#fw4#vpn_domains
 nftset=/tg.dev/4#inet#fw4#vpn_domains
 nftset=/tg.org/4#inet#fw4#vpn_domains
 nftset=/tx.me/4#inet#fw4#vpn_domains
