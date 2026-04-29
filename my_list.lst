@@ -55,6 +55,8 @@ nftset=/usercontent.dev/4#inet#fw4#vpn_domains
 nftset=/tgram.org/4#inet#fw4#vpn_domains
 nftset=/torg.org/4#inet#fw4#vpn_domains
 nftset=/ton.org/4#inet#fw4#vpn_domains
+nftset=/.ton.org/4#inet#fw4#vpn_domains
+nftset=/ton.app/4#inet#fw4#vpn_domains
 #cloudflare
 nftset=/cloudflare-ech.com/4#inet#fw4#vpn_domains
 nftset=/encryptedsni.com/4#inet#fw4#vpn_domains
