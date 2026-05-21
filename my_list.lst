@@ -151,6 +151,8 @@ nftset=/cloudfront.net/4#inet#fw4#vpn_domains
 nftset=/digitalocean.com/4#inet#fw4#vpn_domains
 nftset=/hetzner.com/4#inet#fw4#vpn_domains
 nftset=/ovhcloud.com/4#inet#fw4#vpn_domains
+nftset=/rockstargames.com/4#inet#fw4#vpn_domains
+nftset=/.rockstargames.com/4#inet#fw4#vpn_domains
 #Google-ai
 nftset=/deepmind.com/4#inet#fw4#vpn_domains
 nftset=/deepmind.google/4#inet#fw4#vpn_domains
