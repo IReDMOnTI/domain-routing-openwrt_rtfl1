@@ -133,9 +133,14 @@ nftset=/betterttv.net/4#inet#fw4#vpn_domains
 nftset=/cdn.betterttv.net/4#inet#fw4#vpn_domains
 nftset=/itdog.info/4#inet#fw4#vpn_domains
 nftset=/warp.llimonix.dev/4#inet#fw4#vpn_domains
+#Spaces
 nftset=/spaces.im/4#inet#fw4#vpn_domains
 nftset=/spac.me/4#inet#fw4#vpn_domains
 nftset=/.spac.me/4#inet#fw4#vpn_domains
+nftset=/googletagmanager.com/4#inet#fw4#vpn_domains
+nftset=/cdn.jsdelivr.net/4#inet#fw4#vpn_domains
+nftset=/abt.s3.yandex.net/4#inet#fw4#vpn_domains
+##
 nftset=/perfectgirls.live/4#inet#fw4#vpn_domains
 nftset=/doppiocdn.live/4#inet#fw4#vpn_domains
 nftset=/img.doppiocdn.live/4#inet#fw4#vpn_domains
