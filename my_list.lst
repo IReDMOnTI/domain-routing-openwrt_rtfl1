@@ -133,6 +133,7 @@ nftset=/betterttv.net/4#inet#fw4#vpn_domains
 nftset=/cdn.betterttv.net/4#inet#fw4#vpn_domains
 nftset=/itdog.info/4#inet#fw4#vpn_domains
 nftset=/warp.llimonix.dev/4#inet#fw4#vpn_domains
+nftset=/cdnbunny.org/4#inet#fw4#vpn_domains
 #Spaces
 nftset=/spaces.im/4#inet#fw4#vpn_domains
 nftset=/spac.me/4#inet#fw4#vpn_domains
