@@ -495,6 +495,7 @@ nftset=/.gp/4#inet#fw4#vpn_domains
 nftset=/.gq/4#inet#fw4#vpn_domains
 nftset=/.gr/4#inet#fw4#vpn_domains
 nftset=/.grainger/4#inet#fw4#vpn_domains
+nftset=/.gram/4#inet#fw4#vpn_domains
 nftset=/.graphics/4#inet#fw4#vpn_domains
 nftset=/.gratis/4#inet#fw4#vpn_domains
 nftset=/.green/4#inet#fw4#vpn_domains
